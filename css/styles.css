@@ -1,0 +1,32 @@
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 100%, 74%);
+  background-image: "images/bg-intro-desktop.png";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  margin: 0;
+  font-size: 16px;
+}
+
+.container{
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-container{
+  width: 400px;
+  max-width: 100%;
+  margin: 100px;
+}
+
+.left-container h1{
+    color: #fff;
+}
+.left-container p{
+    color: #fff;
+}
